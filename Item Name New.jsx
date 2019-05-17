@@ -6,6 +6,7 @@ ItemRenamer = (function() {
 		if ( app.activeDocument.selection.length > 0 ) {
 
 			this.replacements = [
+				'',
 				prompt( 'Item Name\nUse %i placeholder to auto-increment naming. "name-%i" will name items: "name-1", "name-2", etc.', 'Eg: replacement, or replacement-%i' )
 			];
 
